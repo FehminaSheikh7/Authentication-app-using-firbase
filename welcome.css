@@ -92,3 +92,16 @@ input {
 #logoutBtn:hover {
     background: #6200ea;
 }
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%; /* container chhote screen pe fit ho jaye */
+        padding: 20px;
+    }
+
+    #logoutBtn {
+        width: 100%; /* button screen ke width ke hisaab se adjust ho jaye */
+        padding: 12px;
+        font-size: 15px;
+    }
+}

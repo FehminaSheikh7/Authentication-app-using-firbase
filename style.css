@@ -121,7 +121,17 @@ input {
     background: #6200ea; 
 
 }
+@media (max-width: 480px) {
+    div {
+        width: 100%;
+        padding: 20px;
+    }
 
+    #signupBtn, #loginBtn {
+        width: 100%;
+        margin: 8px 0;
+    }
+}
 
 
 
